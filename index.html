@@ -1,11 +1,33 @@
+
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js">
+            document.getElementById("demo").innerHTML = "My First JavaScript";
+        </script>
     </head>
     <body> 
+        
     <div id="container">
+
+
+
         <div id="headersides">
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">My Code</a>
+                <a href="#">Trombone</a>
+                <a href="/CTF.html">CTFs</a>
+                <a href="#">Photos</a>
+              </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
+    
+              </div>
+              
             <h1>Tane Haines</h1>
+            
 
             <div id="textlocation">            
                 <div id="header">
@@ -14,8 +36,12 @@
                 <div id="textlocationbox">
                 <h2>About Me</h2>
                 <p>Hi Ethan Kou, if you are reading this send me a dm saying you did. </p>
-                <p >I am a computer Enthusiast, who literally bought a domain name, and set up a static website just out of curiosity. 
-                    I love coding in python, and C#. I wish I was writing in those right now, but html is alright as well. In this website, I'm thinking of sharing my previous projects with whoever finds the website including yt channel, essays, code, music videos, etc. If I do, hope you find it interesting! </p>
+                <p>I am a computer Enthusiast, who literally bought a domain name, and set up a static website just out of curiosity. 
+                    I love coding in python, and C#. I wish I was writing in those right now, but html is alright as well. In this website, 
+                    I'm thinking of sharing my previous projects with whoever finds the website including yt channel, essays, code, 
+                    music videos, etc. If I do, hope you find it interesting! </p>
+
+                <p>Oh also there's a CTF Flag somewhere connected to this website so good luck!</p>
                 <img src="Memories.jpg" width="50%">
 
                 </div>
